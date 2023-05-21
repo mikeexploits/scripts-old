@@ -1,0 +1,279 @@
+getgenv().SecureMode = true
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Mike's Hub | Beta 0.0.1",
+   LoadingTitle = "Mike's Hub",
+   LoadingSubtitle = "by Mike",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "MikeHub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "", -- buKkmy2eVT
+      RememberJoins = true -- Set this to false to make them join the discord every time they lwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwoad it up
+   },
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Mike's Hub",
+      Subtitle = "Key System",
+      Note = "Script is private, ask for key to use.",
+      FileName = "MikeKey",
+      SaveKey = true,
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = "Mike69420"
+   }
+})
+
+local Tab = Window:CreateTab("Universal", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Remote Spy")
+
+--loadstring(game:HttpGet("", true))()
+
+Rayfield:Notify({
+   Title = "Disclaimer",
+   Content = "All scripts included in this hub are NOT made by Mike! All credit goes to owners.",
+   Duration = math.huge,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "I understand",
+         Callback = function()
+         	
+      end
+   },
+},
+})
+
+Rayfield:Notify({
+   Title = "More than 4!",
+   Content = "There are more than 4 tabs, use the scroll wheel to scroll further to find more scripts!",
+   Duration = 10,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Alright!",
+         Callback = function()
+         	print("e")
+      end
+   },
+},
+})
+
+local Button = Tab:CreateButton({
+   Name = "Hydroxide",
+   Callback = function()
+   	loadstring(game:HttpGet("https://pastebin.com/raw/xpNm7U97", true))()
+   end,
+})
+
+local Section = Tab:CreateSection("Utility")
+
+local Button = Tab:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+   	loadstring(game:HttpGet("https://pastebin.com/raw/JmPDMY8y", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Secure Dark Dex",
+   Callback = function()
+   	loadstring(game:HttpGet("https://pastebin.com/raw/vYWT0j5R", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "CMD-X",
+   Callback = function()
+   	Rayfield:Notify({
+   Title = "Warning",
+   Content = "This script is most likely to crash Mike Hub! Please re-execute if it does crash.",
+   Duration = 4.5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Execute",
+         Callback = function()
+			loadstring(game:HttpGet("https://pastebin.com/raw/XG9XG7pc", true))()
+      end
+   },
+},
+})
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Replication UI",
+   Callback = function()
+         loadstring(game:HttpGet("https://pastebin.com/raw/mRBptAxF", true))()
+   end,
+})
+
+local Section = Tab:CreateSection("Notifacations")
+
+local Button = Tab:CreateButton({
+   Name = "Information",
+   Callback = function()
+         Rayfield:Notify({
+   Title = "We're sorry,",
+   Content = "There are more scripts out there, but sadly this is the best we could find!",
+   Duration = 6.5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         	print("e")
+      end
+   },
+},
+})
+   end,
+})
+   
+local Tab = Window:CreateTab("Jailbreak", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Autofarm")
+
+local Button = Tab:CreateButton({
+   Name = "Jailbreaker",
+   Callback = function()
+         loadstring(game:HttpGet('https://scripts.luawl.com/14245/JailbreakerFree.lua'))()
+   end,
+})
+local Section = Tab:CreateSection("Utility")
+local Button = Tab:CreateButton({
+   Name = "Vynixius",
+   Callback = function()
+         loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua'))()
+   end,
+})
+
+local Section = Tab:CreateSection("Notifacations")
+
+local Button = Tab:CreateButton({
+   Name = "Information",
+   Callback = function()
+         Rayfield:Notify({
+   Title = "We're sorry,",
+   Content = "There are more scripts out there, but sadly this is the best we could find!",
+   Duration = 6.5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         	print("e")
+      end
+   },
+},
+})
+   end,
+})
+   
+
+local Tab = Window:CreateTab("Pet Sim X", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Utility")
+
+local Button = Tab:CreateButton({
+   Name = "Blacktrap",
+   Callback = function()
+         loadstring(game:HttpGet('https://raw.githubusercontent.com/S4nZz/bt_project/main/Games/BlacktrapScript.txt'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Cipex",
+   Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/cipex-rbx/cipex/main/loader.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "jmes",
+   Callback = function()
+         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Milk",
+   Callback = function()
+         loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Project WD",
+   Callback = function()
+         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/scripts/PSX.lua"))()
+   end,
+})
+   
+local Tab = Window:CreateTab("Slap Battles", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+   Name = "Rouge Hub",
+   Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Rogue-Hub/main/Main.lua", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "LKHUB",
+   Callback = function()
+         loadstring(game:HttpGet("https://lkhub.net/s/loader.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Ok Hub",
+   Callback = function()
+         loadstring(game:HttpGet("https://pastebin.com/raw/Snd4GM2i", true))()
+   end,
+})
+
+local Tab = Window:CreateTab("Transfur Outbreak", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Autograb")
+
+local Button = Tab:CreateButton({
+   Name = "Grab Nearest Person",
+   Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kw6m/Subbers-scripts/main/GrabpeopleLOL", true))()
+   end,
+})
+local Section = Tab:CreateSection("Utility")
+
+local Button = Tab:CreateButton({
+   Name = "RealZzHub",
+   Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/RealZzHub/MainV2/main/Main.lua"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Notifacations")
+
+local Button = Tab:CreateButton({
+   Name = "Information",
+   Callback = function()
+         Rayfield:Notify({
+   Title = "We're sorry,",
+   Content = "There are more scripts out there, but sadly this is the best we could find!",
+   Duration = 6.5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         	print("e")
+      end
+   },
+},
+})
+   end,
+})
+   
