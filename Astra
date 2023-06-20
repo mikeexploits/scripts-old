@@ -1,0 +1,8 @@
+--work in progress, testing helps me.
+
+local astra = game:GetService("Workspace").Cones.Astra
+
+astra.Outline.Transparency = 0
+astra.Transparency = 0
+
+astra.CanTouch = true
