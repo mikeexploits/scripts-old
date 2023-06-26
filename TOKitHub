@@ -179,19 +179,11 @@ local Tab = Window:CreateTab("1v1s")
 local Input = Tab:CreateInput({
     Name = "Player Name",
     PlaceholderText = "input username. CASE SENSITIVE!",
-    RemoveTextAfterFocusLost = false,
+    RemoveTextAfterFocusLost = true,
     Callback = function(Text)
-        user1v1 = Text
+        user1v1 = game.Players.Text.Character
     end,
  })
 
-local Paragraph2 = Tab:CreateParagraph({Title = "Health", Content = "unidentified"})
+local Paragraph2 = Tab:CreateParagraph({Title = "Health", Content = user1v1.Health})
 
-while true do
-    wait(0.01)
-	if user1v1 == nil then
-      	 print("Var variable hasn't changed!")
-	else
-        Paragraph2 = Paragraph2 = Tab:CreateParagraph({Title = "Health", Content = game.Players.user1v1.Character.Humanoid.Health})
-    end
-end
