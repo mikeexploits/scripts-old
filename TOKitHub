@@ -185,7 +185,7 @@ local Input = Tab:CreateInput({
     end,
  })
 
-local Paragraph2 = Tab:CreateParagraph({Title = "Health", Content = nil})
+local Paragraph2 = Tab:CreateParagraph({Title = "Health", Content = "unidentified"})
 
 while true do
     wait(0.01)
