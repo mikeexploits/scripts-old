@@ -185,4 +185,4 @@ local Input = Tab:CreateInput({
     end,
  })
 
-local Paragraph = Tab:CreateParagraph({Title = "Health", Content = game.Players.user1v1.Character.Humanoid.Health})
+local Paragraph = Tab:CreateParagraph({Title = "Health", Content = "Health =".. game.Players.user1v1.Character.Humanoid.Health})
