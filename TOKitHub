@@ -174,3 +174,15 @@ local ColorPicker = Tab:CreateColorPicker({
     end
 })
 
+local Tab = Window:CreateTab("1v1s")
+
+local Input = Tab:CreateInput({
+    Name = "Player Name",
+    PlaceholderText = "input username. CASE SENSITIVE!",
+    RemoveTextAfterFocusLost = false,
+    Callback = function(Text)
+        user1v1 = Text
+    end,
+ })
+
+local Paragraph = Tab:CreateParagraph({Title = "Health", Content = game.Players.user1v1.Character.Humanoid.Health})
