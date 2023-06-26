@@ -185,4 +185,13 @@ local Input = Tab:CreateInput({
     end,
  })
 
-local Paragraph = Tab:CreateParagraph({Title = "Health", Content = "Health =".. game.Players.user1v1.Character.Humanoid.Health})
+local Paragraph2 = Tab:CreateParagraph({Title = "Health", Content = nil})
+
+while true do
+    wait(0.01)
+	if user1v1 == nil then
+      	 print("Var variable hasn't changed!")
+	else
+        Paragraph2 = Paragraph2 = Tab:CreateParagraph({Title = "Health", Content = game.Players.user1v1.Character.Humanoid.Health})
+    end
+end
