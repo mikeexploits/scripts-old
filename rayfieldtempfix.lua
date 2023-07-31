@@ -111,7 +111,7 @@ local TweenService = game:GetService("TweenService")
 local HttpService = game:GetService("HttpService")
 local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
-local CoreGui = game:GetService("CoreGui")
+local CoreGui = game.Players.LocalPlayer.PlayerGui
 
 -- Interface Management
 local Rayfield = game:GetObjects("rbxassetid://10804731440")[1]
