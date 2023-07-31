@@ -993,7 +993,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 		if not Passthrough then
 			local AttemptsRemaining = math.random(2,6)
 			Rayfield.Enabled = false
-			local KeyUI = game:GetObjects("rbxassetid://11380036235")[1]
+			local KeyUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/profileaccount/scripts/main/keyui_for_tempfix"))()
 
 			if gethui then
 				KeyUI.Parent = gethui()
