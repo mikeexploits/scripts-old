@@ -114,7 +114,7 @@ local Players = game:GetService("Players")
 local CoreGui = game.Players.LocalPlayer.PlayerGui
 
 -- Interface Management
-local Rayfield = game:GetObjects("rbxassetid://10804731440")[1]
+local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/RealZzHub/MainV2/main/Main.lua"))()
 
 Rayfield.Enabled = false
 
