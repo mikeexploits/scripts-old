@@ -46,7 +46,7 @@ Rayfield:Notify({
 
 local Tab = Window:CreateTab("Essentials") -- Title, Image
 
-local Section = Tab:CreateSection("Primary")
+local Section = Tab:CreateSection("By DecerZz")
 
 local Button = Tab:CreateButton({
    Name = "RealZzHub",
