@@ -111,7 +111,7 @@ local TweenService = game:GetService("TweenService")
 local HttpService = game:GetService("HttpService")
 local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
-local CoreGui = game.Players.LocalPlayer.PlayerGui
+local CoreGui = game:GetService("CoreGui")
 
 -- Interface Management
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/profileaccount/scripts/main/RayfieldUI_for_tempfix.lua"))()
