@@ -171,7 +171,7 @@ function Library:Main(GName)
     Name.Font = Enum.Font.Gotham
     Name.Text = "mike's cheat v3"
     Name.TextColor3 = Color3.fromRGB(255, 255, 255)
-    Name.TextSize = 24.000
+    Name.TextSize = 21.000
     Name.TextXAlignment = Enum.TextXAlignment.Left
 
     GameName.Name = "GameName"
