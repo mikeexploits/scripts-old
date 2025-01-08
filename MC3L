@@ -159,7 +159,7 @@ function Library:Main(GName)
     Logo.BorderSizePixel = 0
     Logo.Position = UDim2.new(0, 10, 0, 10)
     Logo.Size = UDim2.new(0, 35, 0, 35)
-    Logo.Image = "rbxassetid://134449647048209"
+    Logo.Image = "rbxassetid://86332603662671"
 
     Name.Name = "Name"
     Name.Parent = MainBackground
@@ -171,7 +171,7 @@ function Library:Main(GName)
     Name.Font = Enum.Font.Gotham
     Name.Text = "mike's cheat v3"
     Name.TextColor3 = Color3.fromRGB(255, 255, 255)
-    Name.TextSize = 27.000
+    Name.TextSize = 24.000
     Name.TextXAlignment = Enum.TextXAlignment.Left
 
     GameName.Name = "GameName"
@@ -265,7 +265,7 @@ function Library:Main(GName)
         NotificationLogo.BorderSizePixel = 0
         NotificationLogo.Position = UDim2.new(0.0130000003, 0, 0.0280000009, 0)
         NotificationLogo.Size = UDim2.new(0, 26, 0, 26)
-        NotificationLogo.Image = "rbxassetid://134449647048209"
+        NotificationLogo.Image = "rbxassetid://86332603662671"
 
         NotificationText.Name = "NotificationText"
         NotificationText.Parent = Notification
