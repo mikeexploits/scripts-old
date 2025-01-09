@@ -1674,43 +1674,7 @@ function Library:Main(GName)
         local NM
         local ConfigTab = TabLibrary:NewTab("Settings")
 
-        local ThemesList = {}
-        for _,v in pairs(ThS) do
-            table.insert(ThemesList, v.Name)
-        end
-
-        local function UpdateTheme(SelectedTheme)
-            local OldTheme = Th
-            Th = nil
-            for _,v in pairs(ThS) do
-                if v.Name == SelectedTheme then
-                    Th = v
-                    break
-                end
-            end
-            MainBackground.Image = Th.Background
-            Logo.Image = Th.Logo
-            for _,v in pairs(IL) do
-                if v:IsA("ImageButton") then
-                    if v.ImageColor3 == OldTheme.Color1 then
-                        v.ImageColor3 = Th.Color1
-                    else
-                        v.ImageColor3 = Th.Color2
-                    end
-                else
-                    if v.BackgroundColor3 == OldTheme.Color1 then
-                        v.BackgroundColor3 = Th.Color1
-                    else
-                        v.BackgroundColor3 = Th.Color2
-                    end
-                end
-            end
-        end
-
         ConfigTab:NewLabel("Main", true)
-        ConfigTab:NewDropdown("Th", ThemesList, function(v)
-            UpdateTheme(v)
-        end, true)
         ConfigTab:NewSlider("Rainbow Speed", 1,10,1,function(v)
             RbS = 11-v
         end, 7)
